@@ -141,7 +141,7 @@ export const abclPlayer = {
       actionMessage = `forgets to lift up the lid and ${actionMessage}`;
     }
     if (hasDiaper()) {
-      actionMessage = `%POSSESSIVE%'s diaper leaks and ${actionMessage}`;
+      actionMessage = `'s diaper leaks and ${actionMessage}`;
     }
     if (sittingOn === "toilet") {
       actionMessage = `${actionMessage} while sitting on the toilet`;
